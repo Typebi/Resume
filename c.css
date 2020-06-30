@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}
+@keyframes octocat-wave{
+	0%,100%{transform:rotate(0)}
+	20%,60%{transform:rotate(-25deg)}
+	40%,80%{transform:rotate(10deg)}
+}
+@media(max-width:600px){
+	.github-corner:hover .octo-arm{animation:none}
+	.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}
+}
+@media screen and (max-width: 600px) {
+	#intro,#profileImg1,.github-corner{ display: none;}
+	#profileImg2{display:inline-block;}
+	#name1{display:inline-block;}
+	.profile{heigt:25em; position:relative; left:-3em;}
+	#header-hr{margin-bottom:-1em;}
+}
+@media screen and (min-width: 601px) {
+	#header-hr{margin-left:8.75em; width:15em;}
+	#profileImg1{display:inline-block;}
+	#profileImg2{display:none;}
+}
+header{background-color:rgb(230,230,230); top:0; width:100% !important;}
+body{font-family:'맑은 고딕'; line-height:140%;}
+a {text-decoration: none; color:blue;}
+a:hover{text-decoration:underline;}
+code{font-family:monospace,monospace;font-size:1em}
+.profile{position:relative; display: table; margin-left: auto; margin-right: auto;}
+.doc{position:relative; display: table; margin-left: auto; margin-right: auto; padding-left:3em; padding-right:3em;}
+.featured-project-rounded-img{max-width:100%;}
+#profileImg1,#profileImg2{margin:2em 1em 1em 1em; float:left;}
+#name2{color:rgb(128,128,128);}
+#intro{border-left:0.3em solid rgb(123,126,129); padding-left:0.5em; margin-left:17.5em; max-width:490px;}
