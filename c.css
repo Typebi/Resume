@@ -15,11 +15,13 @@
 	#name1{display:inline-block;}
 	.profile{heigt:25em; position:relative; left:-3em;}
 	#header-hr{margin-bottom:-1em;}
+	.featured-project{max-width:100%;}
 }
 @media screen and (min-width: 601px) {
 	#header-hr{margin-left:8.75em; width:15em;}
 	#profileImg1{display:inline-block;}
 	#profileImg2{display:none;}
+	.featured-project{max-width:50%; float:left;}
 }
 header{background-color:rgb(230,230,230); top:0; width:100% !important;}
 body{font-family:'맑은 고딕'; line-height:140%;}
