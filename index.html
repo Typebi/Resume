@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#"><meta charset="UTF-8">
+<head prefix="og: http://ogp.me/ns# profile: http://ogp.me/ns/profile#">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale:1.0">
 <title>Resume</title>
 <script src="f.js"></script>
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
@@ -18,7 +20,6 @@
 <meta property="profile:first_name" content="DongGyun">
 <meta property="profile:last_name" content="Han">
 <meta property="profile:username" content="Typebi">
-<meta name="viewport" content="width=device-width, initial-scale:1.0">
 <link rel="apple-touch-icon" sizes="57x57" href="imgs/ProfileImage_57x57.png"/>
 <link rel="apple-touch-icon" sizes="60x60" href="imgs/ProfileImage_60x60.png"/>
 <link rel="apple-touch-icon" sizes="72x72" href="imgs/ProfileImage_72x72.png"/>
@@ -32,6 +33,7 @@
 <link rel="icon" sizes="32x32" href="imgs/ProfileImage_32x32.png"/>
 <link rel="icon" sizes="96x96" href="imgs/ProfileImage_96x96.png"/>
 <link rel="icon" sizes="192x192" href="imgs/ProfileImage_192x192.png"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <meta name="msapplication-TileColor" content="#FFFFFF">
 <meta name="msapplication-TileImage" content="imgs/ProfileImage_144x144.png">
 </head>
@@ -50,13 +52,16 @@
 		<div class="profile">
 			<div class="profile-Img">
 				<a href="https://github.com/Typebi" target="_blank">
-				<img id="profileImg1" src="imgs/ProfileImage.png" alt="Profile Picture" width="250" height="125" >
+				<img id="profileImg1" src="imgs/ProfileImage.png" alt="Profile Picture" width="250" height="125">
 				<img id="profileImg2" src="imgs/ProfileImage.png" alt="Profile Picture" width="100" height="100" style="border-radius:70px;">
 				</a>
 			</div>
 			<h1 id="name1">Typebi <small id=name2>한동균</small><hr id="header-hr"></hr></h1>
-			<h4 style="color:rgb(100,100,100);">Promising Kid Developer <small>코딩 꿈나무</small></h4>
-			<p id="intro">Imagination should be the center of your life. - <a href="https://en.wikipedia.org/wiki/Ray_Bradbury" target="_blank"><i style="color:black;">Ray Bradbury</i></a></p>
+			<h4 style="color:rgb(100,100,100);">Promising Kid Developer <small>코딩 꿈나무</small><br>
+				<a class="fa fa-lg fa-github" href="https://github.com/Typebi"/>&nbsp
+				<a href="mailto:typebi.dev@gmail.com" style="font-weight:lighter">typebi.dev@gmail.com</a>
+			</h4>
+			<p id="intro" style="margin-top:-1em;">Imagination should be the center of your life. - <a href="https://en.wikipedia.org/wiki/Ray_Bradbury" target="_blank"><i style="color:black;">Ray Bradbury</i></a></p>
 		</div>
 	</header>
 	
@@ -79,9 +84,9 @@
 			<hr/>
 			<ul id="TechStackList">
 				<li>Java</li>
-				<li>JSP/Servlet & Spring framework</li>
+				<li>JSP / Servlet & Spring framework</li>
 				<li>Oracle DB</li>
-				<li>HTML5/CSS</li>
+				<li>HTML5 / CSS3</li>
 				<li>Some of Javascript<small>(ES6)</small></li>
 				<li>Some of Python3</li>
 				<li>Some of Android development</li>
@@ -141,26 +146,26 @@
 		</div>
 		<div>
 			<h3>Featured Projects</h3><hr/>
-			<div class="featured-project" onMouseOver="mouseOver(true,'img-KBOC-play','img-KBOC-loby')" onMouseOut="mouseOver(false,'img-KBOC-play','img-KBOC-loby')"><ul>
+			<div class="featured-project"><ul>
 				<h4 class="featured-project-h4" id="kboc">
 					<a href="https://github.com/Typebi/KeyboardO-Colosseum" target="_blank">KeyboardO Colosseum</a> / 
 					<a href="https://docs.google.com/presentation/d/1mU_moktDQJJKLQu02jvpQwQzIVvhEYw4VrSJxLSqxKg/edit?usp=sharing" target="_blank">Presentation</a>
 				</h4>
 				<strong><code>Java</code></strong><br>
 				<span>Real-time typing battle game</span>
-				<a href="https://github.com/Typebi/KeyboardO-Colosseum" target="_blank">
+				<a href="https://github.com/Typebi/KeyboardO-Colosseum" target="_blank" onMouseOver="mouseOver(true,'img-KBOC-play','img-KBOC-loby')" onMouseOut="mouseOver(false,'img-KBOC-play','img-KBOC-loby')">
 					<img class=featured-project-rounded-img id="img-KBOC-loby" src="imgs/KBOC_loby.png" alt="KBOC Loby Image">
 					<img class=featured-project-rounded-img id="img-KBOC-play" src="imgs/KBOC_play.png" alt="KBOC Play Image" style="display:none">
 				</a>
 			</ul></div>
-			<div class="featured-project" onMouseOver="mouseOver(true,'img-Nawa-signup','img-Nawa-login')" onMouseOut="mouseOver(false,'img-Nawa-signup','img-Nawa-login')"><ul>
+			<div class="featured-project"><ul>
 				<h4 class="featured-project-h4" id="trip">
 					<a href="https://github.com/Typebi/Nawa" target="_blank">Trip spot review site </a> / 
 					<a href="https://docs.google.com/presentation/d/1ddBl7tXwzGJP8vQaCKnsgFYV7pv2u64oW3q03FPwchI/edit?usp=sharing" target="_blank">Presentation</a>
 				</h4>
 				<strong><code>JSP/Servlet</code>, <code>Javascript</code>, <code>HTML5/CSS</code>, <code>Oracle DB</code></strong><br>
 				<span>MVC Web appication <small>(Login & Sign-up part)</small></span>
-				<a href="https://github.com/Typebi/Nawa" target="_blank">
+				<a href="https://github.com/Typebi/Nawa" target="_blank" onMouseOver="mouseOver(true,'img-Nawa-signup','img-Nawa-login')" onMouseOut="mouseOver(false,'img-Nawa-signup','img-Nawa-login')">
 					<img class=featured-project-rounded-img id="img-Nawa-login"src="imgs/Nawa_login.png" alt="Nawa Login page" style="border:0.5px solid black">
 					<img class=featured-project-rounded-img id="img-Nawa-signup" src="imgs/Nawa_signup.png" alt="Nawa Sign-up page" style="display:none; border:0.5px solid black">
 				</a>
