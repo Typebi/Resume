@@ -8,7 +8,7 @@
 <meta property="og:title" content="Typebi's Regeme">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://typebi.gq">
-<meta property="og:image" content="OGTagImage_3.png">
+<meta property="og:image" content="imgs/OGTagImage_3.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="600">
 <meta property="og:image:height" content="315">
@@ -19,22 +19,21 @@
 <meta property="profile:last_name" content="Han">
 <meta property="profile:username" content="Typebi">
 <meta name="viewport" content="width=device-width, initial-scale:1.0">
-<link rel="apple-touch-icon" sizes="57x57" href="ProfileImage_57x57.png"/>
-<link rel="apple-touch-icon" sizes="60x60" href="ProfileImage_60x60.png"/>
-<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
-<link rel="apple-touch-icon" sizes="76x76" href="ProfileImage_76x76.png"/>
-<link rel="apple-touch-icon" sizes="114x114" href="ProfileImage_114x114.png"/>
-<link rel="apple-touch-icon" sizes="120x120" href="ProfileImage_120x120.png"/>
-<link rel="apple-touch-icon" sizes="144x144" href="ProfileImage_144x144.png"/>
-<link rel="apple-touch-icon" sizes="152x152" href="ProfileImage_152x152.png"/>
-<link rel="apple-touch-icon" sizes="180x180" href="ProfileImage_180x180.png"/>
-<link rel="icon" sizes="16x16" href="ProfileImage_16x16.png"/>
-<link rel="icon" sizes="32x32" href="ProfileImage_32x32.png"/>
-<link rel="icon" sizes="96x96" href="ProfileImage_96x96.png"/>
-<link rel="icon" sizes="192x192" href="ProfileImage_192x192.png"/>
+<link rel="apple-touch-icon" sizes="57x57" href="imgs/ProfileImage_57x57.png"/>
+<link rel="apple-touch-icon" sizes="60x60" href="imgs/ProfileImage_60x60.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="imgs/ProfileImage_72x72.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="imgs/ProfileImage_76x76.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="imgs/ProfileImage_114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="imgs/ProfileImage_120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="imgs/ProfileImage_144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="imgs/ProfileImage_152x152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="imgs/ProfileImage_180x180.png"/>
+<link rel="icon" sizes="16x16" href="imgs/ProfileImage_16x16.png"/>
+<link rel="icon" sizes="32x32" href="imgs/ProfileImage_32x32.png"/>
+<link rel="icon" sizes="96x96" href="imgs/ProfileImage_96x96.png"/>
+<link rel="icon" sizes="192x192" href="imgs/ProfileImage_192x192.png"/>
 <meta name="msapplication-TileColor" content="#FFFFFF">
-<meta name="msapplication-TileImage" content="ProfileImage_144x144.png">
-
+<meta name="msapplication-TileImage" content="imgs/ProfileImage_144x144.png">
 </head>
 
 
@@ -49,13 +48,15 @@
 
 	<header>
 		<div class="profile">
-			<a href=https://github.com/Typebi>
-			<img id="profileImg1" src="ProfileImage.png" alt="Profile Picture" width="250" height="125" >
-			<img id="profileImg2" src="ProfileImage.png" alt="Profile Picture" width="100" height="100" style="border-radius:70px;">
-			</a>
-			<h1 id=name1>Typebi <small id=name2>한동균</small><hr id="header-hr"></hr></h1>
-			<h4 style="color:rgb(100,100,100);">Promising Kid Developer</h4>
-			<p id="intro">If I have seen farther, it is by standing on the shoulders of Giants. - Isaac Newton</p>
+			<div class="profile-Img">
+				<a href=https://github.com/Typebi>
+				<img id="profileImg1" src="imgs/ProfileImage.png" alt="Profile Picture" width="250" height="125" >
+				<img id="profileImg2" src="imgs/ProfileImage.png" alt="Profile Picture" width="100" height="100" style="border-radius:70px;">
+				</a>
+			</div>
+			<h1 id="name1">Typebi <small id=name2>한동균</small><hr id="header-hr"></hr></h1>
+			<h4 style="color:rgb(100,100,100);">Promising Kid Developer <small>코딩 꿈나무</small></h4>
+			<p id="intro">Imagination should be the center of your life. - <a href="https://en.wikipedia.org/wiki/Ray_Bradbury"><i style="color:black;">Ray Bradbury</i></a></p>
 		</div>
 	</header>
 	
@@ -73,21 +74,21 @@
 				<li>합리적 이상주의 선호함</li>
 			</ul>
 		</div>
-		<div class="TechStack">
-			<h3>Tech Stack</h3>
+		<div class="Skills">
+			<h3>Skills</h3>
 			<hr/>
 			<ul id="TechStackList">
-				<li>Java & Spring framework</li>
+				<li>Java</li>
 				<li>JSP/Servlet & Spring framework</li>
 				<li>Oracle DB</li>
 				<li>HTML5/CSS</li>
-				<li>Some of Javascript(ES6)</li>
+				<li>Some of Javascript<small>(ES6)</small></li>
 				<li>Some of Python3</li>
 				<li>Some of Android development</li>
 				<li>Begining step of Kotlin</li>
-				<li><a onMouseOver="showTOEIC(true, 'toeicImg');" onMouseMove="moveTOEIC('toeicImg');" onMouseOut="showTOEIC(false,'toeicImg');">토익 710</a></li>
-					<img id="toeicImg" src="TOEIC_Score.png" width="500" height="100" style="display:none; position:absolute;border:0.05em solid black; max-width:80%;"/>
-				<li>JLPT 3급, 일본어 회화 가능(현지 자유여행 가능 수준)</li>
+				<li><a onMouseOver="showImg(true, 'toeicImg');" onMouseMove="moveImg('toeicImg');" onMouseOut="showImg(false,'toeicImg');">토익 710</a></li>
+					<img id="toeicImg" src="imgs/TOEIC_Score.png" width="500" height="100" style="display:none; position:absolute; border:0.05em solid black; max-width:80%;"/>
+				<li>JLPT 3급, 일본어 회화 가능<small>(현지 자유여행 가능 수준)</small></li>
 		 	</ul>
 		</div>
 		<div class="History">
@@ -110,40 +111,73 @@
 				 </li>
 			</ul>
 			<ul>
-				<li>19. 9. - 20. 3. BIT Camp(Java back-end developer course)</li>
+				<li>19. 9. - 20. 3. BIT Camp<small>(Java back-end developer course)</small></li>
 				<ul>
-					<li>19.10. One week project 1
-						<ul><li><a href="https://github.com/Typebi/KeyboardO-Colosseum">&ltKeyboardO Colosseum&gt</a>, typing game made by Java</li>
-							<li><a href="https://docs.google.com/presentation/d/1mU_moktDQJJKLQu02jvpQwQzIVvhEYw4VrSJxLSqxKg/edit?usp=sharing">Presentation</a></li>
+					<li>19.10. One week project
+						<ul><li><a href="https://github.com/Typebi/KeyboardO-Colosseum" onMouseOver="showImg(true, 'kboc-play-img');" onMouseMove="moveImg('kboc-play-img');" onMouseOut="showImg(false,'kboc-play-img');">&ltKeyboardO Colosseum&gt</a>, <span class="span-line-align">real-time typing battle game</span></li>
+							<img id="kboc-play-img" src="imgs/KBOC_play.png" width="633" height="356" style="display:none; position:absolute; max-width:65%; height:auto;">
+							<li><a href="https://docs.google.com/presentation/d/1mU_moktDQJJKLQu02jvpQwQzIVvhEYw4VrSJxLSqxKg/edit?usp=sharing" onMouseOver="showImg(true, 'kboc-presentation-img');" onMouseMove="moveImg('kboc-presentation-img');" onMouseOut="showImg(false,'kboc-presentation-img');">Presentation</a></li>
+							<img id="kboc-presentation-img" src="imgs/KBOC_presentation.png" width="633" height="356" style="display:none; position:absolute; border:0.05em solid black; max-width:65%; height:auto;">
 						</ul>
 					</li>
-					<li>19.11. Seat assignment program(prevent duplicated teammate)</li>
-					<li>19.12. One week project 2(team)
-						<ul><li><a href=>MVC Web appication</a>, login & sign-up part</li>
-							<li><a href="https://docs.google.com/presentation/d/1ddBl7tXwzGJP8vQaCKnsgFYV7pv2u64oW3q03FPwchI/edit?usp=sharing">Presentation</a></li></ul>
+					<li>19.11. Seat assignment program<small>(prevent duplicated teammate)</small></li>
+					<li>19.12. One week project<small>(team)</small>
+						<ul><li><a href="https://github.com/Typebi/Nawa" onMouseOver="showImg(true, 'nawa-main-img');" onMouseMove="moveImg('nawa-main-img');" onMouseOut="showImg(false,'nawa-main-img');">MVC Web appication</a>, <span class="span-line-align">login & sign-up part</span></li>
+							<img id="nawa-main-img" src="imgs/Nawa_main.png" width="633" height="356" style="display:none; position:absolute; border:0.05em solid black; max-width:65%; height:auto;">
+							<li><a href="https://docs.google.com/presentation/d/1ddBl7tXwzGJP8vQaCKnsgFYV7pv2u64oW3q03FPwchI/edit?usp=sharing" onMouseOver="showImg(true, 'nawa-presentation-img');" onMouseMove="moveImg('nawa-presentation-img');" onMouseOut="showImg(false,'nawa-presentation-img');">Presentation</a></li>
+							<img id="nawa-presentation-img" src="imgs/Nawa_presentation.png" width="633" height="356" style="display:none; position:absolute; border:0.05em solid black; max-width:65%; height:auto;">
+						</ul>
 					</li>
-					<li>20. 1. <a href=>Presentation in class</a>(일정 변경으로 중단)</li>
+					<li>20. 1. <a href="https://docs.google.com/presentation/d/1_6zuqyQcaC8TkbkT6aN16p2X_cV5qs8NChk9nCNqxac/edit?usp=sharing" onMouseOver="showImg(true, 'study-share-img');" onMouseMove="moveImg('study-share-img');" onMouseOut="showImg(false,'study-share-img');">Presentation in class</a><small>(일정 변경으로 중단)</small></li>
+					<img id="study-share-img" src="imgs/Presentation_index.png" width="633" height="356" style="display:none; position:absolute; border:0.05em solid black; max-width:65%; height:auto;">
 					<li>20. 2. <a href="https://ocw.mit.edu/index.htm">MIT OCW</a> Algorithm part 청강</li>
 				</ul>
 			</ul>
-			<ul><li>20.3. - 현재
-				<ul><li>COVID-19 사회적 거리두기 동참</li>
-					<li>KOEI 삼국지 영걸전 외 다수 Play</li>
+			<ul><li>20. 4. - Now
+				<ul><li>KOEI 삼국지 영걸전 외 다수 Play</li>
+					<li>COVID-19 사회적 거리두기 동참</li>
 				</ul>
 			</li></ul>
 		</div>
 		<div>
 			<h3>Featured Projects</h3><hr/>
-			<div class="featured-project"><ul>
-				<h4 id=kboc><a href="https://github.com/Typebi/KeyboardO-Colosseum">KeyboardO Colosseum</a> <small></small><code>Java 100%</code></h4>
-				<p>Typing battle game</p>
-				<a href="https://github.com/Typebi/KeyboardO-Colosseum"><img class=featured-project-rounded-img src="KBOC_Play.png"></a>
+			<div class="featured-project" onMouseOver="mouseOver(true,'img-KBOC-play','img-KBOC-loby')" onMouseOut="mouseOver(false,'img-KBOC-play','img-KBOC-loby')"><ul>
+				<h4 class="featured-project-h4" id="kboc">
+					<a href="https://github.com/Typebi/KeyboardO-Colosseum">KeyboardO Colosseum</a> / 
+					<a href="https://docs.google.com/presentation/d/1mU_moktDQJJKLQu02jvpQwQzIVvhEYw4VrSJxLSqxKg/edit?usp=sharing">Presentation</a>
+				</h4>
+				<strong><code>Java</code></strong><br>
+				<span>Real-time typing battle game</span>
+				<a href="https://github.com/Typebi/KeyboardO-Colosseum">
+					<img class=featured-project-rounded-img id="img-KBOC-loby" src="imgs/KBOC_loby.png">
+					<img class=featured-project-rounded-img id="img-KBOC-play" src="imgs/KBOC_play.png" style="display:none">
+				</a>
+			</ul></div>
+			<div class="featured-project" onMouseOver="mouseOver(true,'img-Nawa-signup','img-Nawa-login')" onMouseOut="mouseOver(false,'img-Nawa-signup','img-Nawa-login')"><ul>
+				<h4 class="featured-project-h4" id="trip">
+					<a href="https://github.com/Typebi/Nawa">Trip spot review site </a> / 
+					<a href="https://docs.google.com/presentation/d/1ddBl7tXwzGJP8vQaCKnsgFYV7pv2u64oW3q03FPwchI/edit?usp=sharing">Presentation</a>
+				</h4>
+				<strong><code>JSP/Servlet</code>, <code>Javascript</code>, <code>HTML5/CSS</code>, <code>Oracle DB</code></strong><br>
+				<span>MVC Web appication <small>(Login & Sign-up part)</small></span>
+				<a href="https://github.com/Typebi/Nawa">
+					<img class=featured-project-rounded-img id="img-Nawa-login"src="imgs/Nawa_login.png" style="border:0.5px solid black">
+					<img class=featured-project-rounded-img id="img-Nawa-signup" src="imgs/Nawa_signup.png" style="display:none; border:0.5px solid black">
+				</a>
 			</ul></div>
 			<div class="featured-project"><ul>
-				<h4 id=kboc><a href="https://docs.google.com/presentation/d/1ddBl7tXwzGJP8vQaCKnsgFYV7pv2u64oW3q03FPwchI/edit?usp=sharing">MVC Web appication </a><small></small><code>JSP/Servlet, Javascript, HTML5/CSS, Oracle DB</code></h4>
-				<p>Trip spot review site</p> <img class=featured-project-rounded-img src="KBOC_Play.png">
+				<h4 class="featured-project-h4" id="Presentation">
+					<a href="https://docs.google.com/presentation/d/1_6zuqyQcaC8TkbkT6aN16p2X_cV5qs8NChk9nCNqxac/edit?usp=sharing">Presentation for classmates</a>
+				</h4>
+				<span>Study sharing <small>(중단)</small></span>
+				<a href="https://docs.google.com/presentation/d/1_6zuqyQcaC8TkbkT6aN16p2X_cV5qs8NChk9nCNqxac/edit?usp=sharing">
+					<img class=featured-project-rounded-img src="imgs/Presentation_index.png" style="border:0.1px solid black;">
+				</a>
 			</ul></div>
 		</div>
 	</div>
+	<hr>
 </body>
+<footer>
+</footer>
 </html>

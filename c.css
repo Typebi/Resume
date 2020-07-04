@@ -13,24 +13,30 @@
 	#intro,#profileImg1,.github-corner{ display: none;}
 	#profileImg2{display:inline-block;}
 	#name1{display:inline-block;}
-	.profile{heigt:25em; position:relative; left:-3em;}
+	.profile{position:relative; left:-3em;}
 	#header-hr{margin-bottom:-1em;}
 	.featured-project{max-width:100%;}
 }
 @media screen and (min-width: 601px) {
-	#header-hr{margin-left:8.75em; width:15em;}
+	#header-hr{margin-left:8.75em; width:inherit;}
 	#profileImg1{display:inline-block;}
 	#profileImg2{display:none;}
+	#name1{padding-right:1em;}
 	.featured-project{max-width:50%; float:left;}
 }
-header{background-color:rgb(230,230,230); top:0; width:100% !important;}
-body{font-family:'맑은 고딕'; line-height:140%;}
+header{background-color:rgb(245,245,245); top:0; width:100% !important;}
+body{font-family:'Malgun Gothic', monospace; line-height:180%;}
 a {text-decoration: none; color:blue;}
 a:hover{text-decoration:underline;}
-code{font-family:monospace,monospace;font-size:1em}
+small,.span-line-align{display: inline-block;}
+code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:6px; display: inline-block;line-height:120%;}
 .profile{position:relative; display: table; margin-left: auto; margin-right: auto;}
-.doc{position:relative; display: table; margin-left: auto; margin-right: auto; padding-left:3em; padding-right:3em;}
-.featured-project-rounded-img{max-width:100%;}
-#profileImg1,#profileImg2{margin:2em 1em 1em 1em; float:left;}
+.profile-Img{line-height:2em; float:left; vertical-align:middle;}
+#profileImg1,#profileImg2{margin:2em 1em 1em 1em;}
 #name2{color:rgb(128,128,128);}
-#intro{border-left:0.3em solid rgb(123,126,129); padding-left:0.5em; margin-left:17.5em; max-width:490px;}
+#intro{border-left:0.3em solid rgb(150,150,150); padding-left:0.5em; margin-left:17.5em; max-width:490px;}
+.doc{position:relative; display: table; margin-left: auto; margin-right: auto; padding-left:3em; padding-right:3em; max-width:800px;}
+.featured-project{height:20em;}
+.featured-project-h4{margin-bottom:-0.1em;}
+.featured-project-rounded-img{max-width:100%;}
+footer{width:100% !important; height:10em;}
