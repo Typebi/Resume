@@ -5,7 +5,8 @@ function showImg(ans, objName) {
 function moveImg(objName) {
 	var obj = document.getElementById(objName); 
 	if (obj.style.display == "block") {
-		obj.style.left = (event.clientX * 0.8) + document.documentElement.scrollLeft + "px";
+		console.log(document.getElementById("doc").offsetWidth);
+		obj.style.left = event.clientX + document.documentElement.scrollLeft - ((window.innerWidth - document.getElementById("doc").offsetWidth) / 2) + 10 + "px";
 		obj.style.top = event.clientY + document.documentElement.scrollTop -150 + "px";
 	}
 }
