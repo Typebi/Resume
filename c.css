@@ -25,7 +25,7 @@
 	.featured-project{max-width:50%; float:left;}
 }
 header{background-color:rgb(245,245,245); top:0; width:100% !important;}
-body{font-family:'Malgun Gothic', monospace; line-height:180%;}
+body{font-family:'Spoqa Han Sans', sans-serif; line-height:180%;}
 a {text-decoration: none; color:rgb(3,102,214);}
 a:visited{color:rgb(3,102,214);}
 a:hover{text-decoration:underline;}
