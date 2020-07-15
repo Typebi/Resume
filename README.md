@@ -1,7 +1,7 @@
 # Typebi's Resume
 
-**Hello. This is me, Typebi.  
+**Hello. I'm Typebi.  
 This repository is for my resume.  
-And you can see the contents of resume [here](https://typebi.gq/).  
-You can also contact me by email: Typebi.dev@gmail.com   
+You can see the contents of resume [here](https://typebi.gq/).  
+And you can also contact me by email: Typebi.dev@gmail.com   
 Thank you.**
