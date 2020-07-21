@@ -7,7 +7,7 @@ function moveImg(objName) {
 	if (obj.style.display == "block") {
 		console.log(document.getElementById("doc").offsetWidth);
 		obj.style.left = event.clientX + document.documentElement.scrollLeft - ((window.innerWidth - document.getElementById("doc").offsetWidth) / 2) + 10 + "px";
-		obj.style.top = event.clientY + document.documentElement.scrollTop -150 + "px";
+		obj.style.top = event.clientY + document.documentElement.scrollTop -170 + "px";
 	}
 }
 function mouseOver(ans, obj1, obj2) {

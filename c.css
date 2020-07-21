@@ -12,23 +12,22 @@
 @media screen and (max-width: 600px) {
 	#intro,#profileImg1,.github-corner{ display: none;}
 	#profileImg2{display:inline-block;}
-	#name1{display:inline-block;}
+	#name1{display:inline-block; margin-bottom:-2em;}
 	.profile{position:relative; left:2em; width:100%}
-	#header-hr{margin-bottom:-1em;}
 	.featured-project{max-width:100%;}
 }
 @media screen and (min-width: 601px) {
-	#header-hr{margin-left:8.75em; width:inherit;}
 	#profileImg1{display:inline-block;}
 	#profileImg2{display:none;}
 	#name1{padding-right:1em;}
 	.featured-project{max-width:50%; float:left;}
 }
-header{background-color:rgb(245,245,245); top:0; width:100% !important;}
+header{border-top:10px solid rgb(20,120,210); top:0; width:100% !important;}
 body{font-family:'Spoqa Han Sans', sans-serif; line-height:180%;}
 a {text-decoration: none; color:rgb(3,102,214);}
 a:visited{color:rgb(3,102,214);}
 a:hover{text-decoration:underline;}
+hr{background-color:rgb(20,120,250); height: 2px;}
 small,.span-line-align{display: inline-block;}
 code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:6px; display: inline-block;line-height:120%;}
 .profile{position:relative; display: table; margin-left: auto; margin-right: auto;}
