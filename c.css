@@ -11,13 +11,7 @@
 	.doc{margin-left:17rem;}
 }
 @media screen and (max-width: 650px) {
-	.profile{margin-bottom:-30rem;}
-	.personality{padding-top:0rem; margin-top:0; margin-bottom:-50rem;}
-	.skills{padding-top:0rem; margin-top:0; margin-bottom:-35rem;}
-	.history{padding-top:0rem; margin-top:0; margin-bottom:-35;}
-	.works{padding-top:0rem; margin-bottom:0; margin-bottom:-50rem;}
 	.work{max-width:100%;}
-	.contact{padding-top:0; margin-top:-15rem; height:100%;}
 }
 @media screen and (min-width: 651px) {
 	.work{max-width:50%; float:left;}
