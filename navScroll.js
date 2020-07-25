@@ -1,18 +1,18 @@
 var scrollChecker = true;
 function scroll(){
-	if ($(document).scrollTop() < $('#personality').offset().top-100) {
+	if ($(document).scrollTop() < $('#personality').offset().top-150) {
 		$('.nav-a').removeClass('active');
 		$('.nav-about').addClass('active');
-	}else if($(document).scrollTop() < $('#skills').offset().top-100) {
+	}else if($(document).scrollTop() < $('#skills').offset().top-150) {
 		$('.nav-a').removeClass('active');
 		$('.nav-personality').addClass('active');
-	}else if($(document).scrollTop() < $('#history').offset().top-100) {
+	}else if($(document).scrollTop() < $('#history').offset().top-150) {
 		$('.nav-a').removeClass('active');
 		$('.nav-skills').addClass('active');
-	}else if($(document).scrollTop() < $('#works').offset().top-100) {
+	}else if($(document).scrollTop() < $('#works').offset().top-150) {
 		$('.nav-a').removeClass('active');
 		$('.nav-history').addClass('active');
-	}else if($(document).scrollTop() < $('#contact').offset().top-100) {
+	}else if($(document).scrollTop() < $('#contact').offset().top-150) {
 		$('.nav-a').removeClass('active');
 		$('.nav-works').addClass('active');
 	}else{
