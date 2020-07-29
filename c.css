@@ -3,6 +3,7 @@
 	#profileImg{display:inline-block;}
 	#sidebar{display: none;}
 	#topbar{display: inline-block;}
+	.imgs{margin-left:16em;}
 	.doc{margin-left:0;}
 	.profile{position:relative; width:100%}
 }
@@ -55,9 +56,9 @@ code{padding:2px 4px; font-size:90%; color:#c7254e; background-color:#f9f2f4; bo
 
 .skills{padding-top:15rem; margin-top:-25rem;}
 
-.history{padding-top:2rem; margin-top:-15rem;}
+.history{padding-top:3rem; margin-top:-15rem;}
 
-.works{padding-top:2rem; margin-bottom:30rem;}
+.works{padding-top:3rem; margin-bottom:30rem;}
 .works-h4{margin-bottom:-0.1rem;}
 .works-rounded-img{max-width:100%;}
 #work2{margin-bottom:3rem;}
