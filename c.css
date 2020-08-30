@@ -25,7 +25,7 @@ a:hover{color:rgb(68,114,148); text-decoration:underline;}
 hr{background-color:rgb(68,114,148); height: 4px; border:0;}
 small,.span-line-align{display: inline-block;}
 code{padding:2px 4px; font-size:90%; color:#c7254e; background-color:#f9f2f4; border-radius:6px; display:inline-block; line-height:120%;}
-
+span{font-size:1em;}
 #sidebar{background-color:rgb(68,114,148); position: fixed; height:100%; padding-top: 1rem; z-index:2;
 	left: 0; float:left; text-align:center; width:250px; }
 .nav{position:absolute;top:50%; left:50%; width:150px; margin-top:-50px; margin-left:-75px;}
