@@ -6,7 +6,7 @@
 	#topbar{display: inline-block;}
 	.imgs{margin-left:16em;}
 	.doc{margin-left:-1rem; width:85%}
-	.profile{font-size:0.8rem; margin-top:-3rem; position:relative; width:100%}
+	.profile{font-size:0.85rem; margin-top:-3rem; position:relative; width:100%}
 	.contact{font-size:0.8rem; }
 }
 @media screen and (min-width: 801px) {
