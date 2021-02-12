@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @media screen and (max-width: 800px) {
+	body{font-size:0.65rem;}
 	#profileImg{display:inline-block;}
 	#sidebar{display: none;}
 	#topbar{display: inline-block;}
@@ -18,7 +19,7 @@
 @media screen and (min-width: 651px) {
 	.work{max-width:50%; float:left;}
 }
-body{font-family:'Spoqa Han Sans', sans-serif; line-height:180%; height:100%; position: relative; font-size:0.65rem;}
+body{font-family:'Spoqa Han Sans', sans-serif; line-height:180%; height:100%; position: relative;}
 
 a {text-decoration: none; color:rgb(3,102,214);}
 a:hover{color:rgb(68,114,148); text-decoration:underline;}
