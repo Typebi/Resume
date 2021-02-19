@@ -1,13 +1,12 @@
 @charset "UTF-8";
 @media screen and (max-width: 800px) {
-	body{font-size:0.65rem;}
+	body{font-size:1vw; display:inline-block;}
 	#profileImg{display:inline-block;}
 	#sidebar{display: none;}
 	#topbar{display: inline-block;}
 	.imgs{margin-left:16em;}
-	.doc{margin-left:0rem; width:85%}
-	.profile{font-size:0.85rem; margin-top:-3rem; position:relative; width:100%}
-	.contact{font-size:0.8rem; }
+	.doc{margin-left:0vw; margin-right:0vw; width:auto}
+	.profile{font-size:3vw; margin-top:-3rem; position:relative;}
 }
 @media screen and (min-width: 801px) {
 	#topbar{display: none;}
