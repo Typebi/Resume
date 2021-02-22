@@ -55,8 +55,8 @@ span{font-size:1em;}
 .personality{padding-top:5rem; margin-top:-15rem;}
 
 .skills{padding-top:5rem; margin-top:-15rem;}
-.mark-style-skills{background-color: #f9f2f4; color:#c7254e; font-weight: bolder; border-radius:6px; display:inline-block; line-height:120%; padding:2px 4px;}
-.mark-style-history{background-color: #f9f2f4; color:#c7254e; font-weight: bolder; border-radius:6px; display:inline-block; line-height:120%; padding:2px 4px;}
+.mark-style-skills{background-color: #f9f2f4; color:#c7254e; font-weight: bold; border-radius:6px; display:inline-block; line-height:120%; padding:2px 4px;}
+.mark-style-history{background-color: #f9f2f4; color:#c7254e; font-weight: bold; border-radius:6px; display:inline-block; line-height:120%; padding:2px 4px;}
 .mark-style-works{background-color: #f9f2f4; color:#c7254e; font-weight: bold; border-radius:6px; display:inline-block; line-height:120%; padding:2px 4px;}
 
 .history{padding-top:5rem; margin-top:0rem;}
